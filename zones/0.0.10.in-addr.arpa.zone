@@ -1,0 +1,40 @@
+$TTL 8h
+
+@ IN SOA ns1.hlc.homelab6.com. developer.homelab6.com. (
+                          2025071620 ; serial number
+                          1d         ; refresh period
+                          3h         ; retry period
+                          3d         ; expire time
+                          3h         ; minimum TTL
+                        )
+
+                          IN NS   ns1.hlc.homelab6.com.
+10                        IN PTR  ns1.hlc.homelab6.com.
+10                        IN PTR  prd-hs-host001.hlc.homelab6.com.
+
+1                         IN PTR  router.hlc.homelab6.com.
+
+175                       IN PTR  prd-hs-launchpad001.hlc.homelab6.com.
+
+38                        IN PTR  prd-hs-compute001.hlc.homelab6.com.
+41                        IN PTR  prd-hs-compute001-bmc.hlc.homelab6.com.
+
+
+61                        IN PTR  prd-vm-dockeradmin001.hlc.homelab6.com.
+
+
+192                       IN PTR  dev-vm-almalinuxhvm.hlc.homelab6.com.
+
+172                       IN PTR  dev-vm-almalinux.hlc.homelab6.com.
+102                       IN PTR  dev-vm-develop001.hlc.homelab6.com.
+218                       IN PTR  dev-vm-test001.hlc.homelab6.com.
+
+107                       IN PTR  dev-vm-almalinuxgpu.hlc.homelab6.com.
+167                       IN PTR  dev-vm-nvd4070.hlc.homelab6.com.
+173                       IN PTR  dev-vm-nvd4070llm.hlc.homelab6.com.
+39                        IN PTR  dev-vm-nvd4070pv.hlc.homelab6.com.
+93                        IN PTR  dev-vm-nvdv100.hlc.homelab6.com.
+144                       IN PTR  dev-vm-nvdv100llm.hlc.homelab6.com.
+
+
+92                        IN PTR  dsk-hs-macmini001.dsk.homelab6.com.
