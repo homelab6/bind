@@ -8,4 +8,4 @@ Host github.com
 Host github.homelab6.com
     StrictHostKeyChecking=accept-new
     PreferredAuthentications publickey
-    IdentityFile /mnt/secrets/github_centershop_ed25519
+    IdentityFile /mnt/secrets/github_homelab6_ed25519
