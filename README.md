@@ -1,2 +1,2 @@
 # bind
-bind
+internal DNS

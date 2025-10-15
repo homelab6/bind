@@ -1,0 +1,11 @@
+# github.com
+Host github.com
+    StrictHostKeyChecking=accept-new
+    PreferredAuthentications publickey
+    IdentityFile /mnt/secrets/github_ed25519
+
+# private github instance
+Host github.homelab6.com
+    StrictHostKeyChecking=accept-new
+    PreferredAuthentications publickey
+    IdentityFile /mnt/secrets/github_centershop_ed25519
